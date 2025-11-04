@@ -4,7 +4,7 @@ import { Link } from 'react-router-dom'
 const Register = () => {
 
   const [userData,setUserData] = useState({fullName:"",email:"",password:"",password2:""})
- 
+   
  //function to change controlled inputs
   const changeInputHandler = (e)=>{
       setUserData(prevState=>{
@@ -12,7 +12,7 @@ const Register = () => {
       })
   }
 
-
+//console.log(userData);
 
   return (
     <section className="register">
